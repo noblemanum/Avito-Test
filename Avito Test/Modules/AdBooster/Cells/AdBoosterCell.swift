@@ -53,11 +53,12 @@ final class AdBoosterCell: UICollectionViewCell {
     private enum Constants {
         static let itemSpacing: CGFloat = 16.0
         static let iconWidth: CGFloat = UIDevice.current.isSmall ? 39.0 : 52.0
+        static let cornerRadius: CGFloat = 5.0
     }
     
     private func configure() {
         backgroundColor = .secondaryBackground
-        layer.cornerRadius = 5.0
+        layer.cornerRadius = Constants.cornerRadius
         
         contentView.addSubview(adBoosterImageView)
         contentView.addSubview(stackView)
