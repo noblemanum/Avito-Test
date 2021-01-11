@@ -16,7 +16,6 @@
 		E5E10891259E0A430099D779 /* AdBoosterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10890259E0A430099D779 /* AdBoosterRouter.swift */; };
 		E5E10894259E0A560099D779 /* AdBoosterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10893259E0A560099D779 /* AdBoosterInteractor.swift */; };
 		E5E10897259E0A720099D779 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10896259E0A720099D779 /* ModuleFactory.swift */; };
-		E5E108A6259E0C040099D779 /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E108A5259E0C040099D779 /* result.json */; };
 		E5E108A9259E0C450099D779 /* AdBoosterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108A8259E0C450099D779 /* AdBoosterProvider.swift */; };
 		E5E108AE259E0C9A0099D779 /* AdBoosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108AD259E0C9A0099D779 /* AdBoosterCell.swift */; };
 		E5E108B4259E0D670099D779 /* AdBooster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108B3259E0D670099D779 /* AdBooster.swift */; };
@@ -35,6 +34,7 @@
 		E5E1090C25A8F7DD0099D779 /* UIViewController+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1090B25A8F7DD0099D779 /* UIViewController+Avito.swift */; };
 		E5E1091025A902BD0099D779 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1090F25A902BD0099D779 /* Button.swift */; };
 		E5E1093325ABC71F0099D779 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5E1093225ABC71F0099D779 /* Localizable.strings */; };
+		E5E1094725ABEC690099D779 /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E1094625ABEC690099D779 /* result.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,6 @@
 		E5E10890259E0A430099D779 /* AdBoosterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterRouter.swift; sourceTree = "<group>"; };
 		E5E10893259E0A560099D779 /* AdBoosterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterInteractor.swift; sourceTree = "<group>"; };
 		E5E10896259E0A720099D779 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
-		E5E108A5259E0C040099D779 /* result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
 		E5E108A8259E0C450099D779 /* AdBoosterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterProvider.swift; sourceTree = "<group>"; };
 		E5E108AD259E0C9A0099D779 /* AdBoosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterCell.swift; sourceTree = "<group>"; };
 		E5E108B3259E0D670099D779 /* AdBooster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBooster.swift; sourceTree = "<group>"; };
@@ -68,6 +67,7 @@
 		E5E1090B25A8F7DD0099D779 /* UIViewController+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Avito.swift"; sourceTree = "<group>"; };
 		E5E1090F25A902BD0099D779 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		E5E1093225ABC71F0099D779 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		E5E1094625ABEC690099D779 /* result.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 		E5E10880259E084A0099D779 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E5E108A5259E0C040099D779 /* result.json */,
+				E5E1094625ABEC690099D779 /* result.json */,
 				E5E1093225ABC71F0099D779 /* Localizable.strings */,
 				E5E1086E259E06D50099D779 /* Assets.xcassets */,
 			);
@@ -280,8 +280,8 @@
 			files = (
 				E5E10872259E06D50099D779 /* LaunchScreen.storyboard in Resources */,
 				E5E1093325ABC71F0099D779 /* Localizable.strings in Resources */,
-				E5E108A6259E0C040099D779 /* result.json in Resources */,
 				E5E1086F259E06D50099D779 /* Assets.xcassets in Resources */,
+				E5E1094725ABEC690099D779 /* result.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
