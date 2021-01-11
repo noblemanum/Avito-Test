@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Avito Test
+
+  Created by Dimon on 11.01.2021.
+  
+*/
+
+// MARK: AdBooster
+
+"adBooster.noSelection" = "Ничего не выбрано";
+
+// MARK: ProviderError
+
+"error.unknown" = "Неизвестная ошибка";

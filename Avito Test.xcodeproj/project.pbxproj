@@ -9,21 +9,65 @@
 /* Begin PBXBuildFile section */
 		E5E10866259E06D30099D779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10865259E06D30099D779 /* AppDelegate.swift */; };
 		E5E10868259E06D30099D779 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10867259E06D30099D779 /* SceneDelegate.swift */; };
-		E5E1086A259E06D30099D779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10869259E06D30099D779 /* ViewController.swift */; };
-		E5E1086D259E06D30099D779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E1086B259E06D30099D779 /* Main.storyboard */; };
+		E5E1086A259E06D30099D779 /* AdBoosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10869259E06D30099D779 /* AdBoosterViewController.swift */; };
 		E5E1086F259E06D50099D779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E1086E259E06D50099D779 /* Assets.xcassets */; };
 		E5E10872259E06D50099D779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E10870259E06D50099D779 /* LaunchScreen.storyboard */; };
+		E5E1088E259E0A3A0099D779 /* AdBoosterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1088D259E0A3A0099D779 /* AdBoosterPresenter.swift */; };
+		E5E10891259E0A430099D779 /* AdBoosterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10890259E0A430099D779 /* AdBoosterRouter.swift */; };
+		E5E10894259E0A560099D779 /* AdBoosterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10893259E0A560099D779 /* AdBoosterInteractor.swift */; };
+		E5E10897259E0A720099D779 /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E10896259E0A720099D779 /* ModuleFactory.swift */; };
+		E5E108A6259E0C040099D779 /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = E5E108A5259E0C040099D779 /* result.json */; };
+		E5E108A9259E0C450099D779 /* AdBoosterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108A8259E0C450099D779 /* AdBoosterProvider.swift */; };
+		E5E108AE259E0C9A0099D779 /* AdBoosterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108AD259E0C9A0099D779 /* AdBoosterCell.swift */; };
+		E5E108B4259E0D670099D779 /* AdBooster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108B3259E0D670099D779 /* AdBooster.swift */; };
+		E5E108C0259E10F90099D779 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108BF259E10F90099D779 /* StatusResponse.swift */; };
+		E5E108C4259E12F10099D779 /* UIColor+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108C3259E12F10099D779 /* UIColor+Avito.swift */; };
+		E5E108C9259E15120099D779 /* UIEdgeInsets+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108C8259E15120099D779 /* UIEdgeInsets+Avito.swift */; };
+		E5E108CF25A456440099D779 /* ProviderError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108CE25A456440099D779 /* ProviderError.swift */; };
+		E5E108D725A460220099D779 /* AdBoosterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108D625A460220099D779 /* AdBoosterResponse.swift */; };
+		E5E108DC25A62A7B0099D779 /* AdBoosterHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108DB25A62A7B0099D779 /* AdBoosterHeader.swift */; };
+		E5E108DF25A63A8F0099D779 /* UICollectionView+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108DE25A63A8F0099D779 /* UICollectionView+Avito.swift */; };
+		E5E108E225A641310099D779 /* UIDevice+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108E125A641310099D779 /* UIDevice+Avito.swift */; };
+		E5E108E525A660690099D779 /* UIImageView+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108E425A660690099D779 /* UIImageView+Avito.swift */; };
+		E5E108EF25A685860099D779 /* NSLayoutConstraint+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108EE25A685860099D779 /* NSLayoutConstraint+Avito.swift */; };
+		E5E108F325A87FB60099D779 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108F225A87FB60099D779 /* Router.swift */; };
+		E5E108F725A88E5A0099D779 /* AdBoosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E108F625A88E5A0099D779 /* AdBoosterData.swift */; };
+		E5E1090C25A8F7DD0099D779 /* UIViewController+Avito.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1090B25A8F7DD0099D779 /* UIViewController+Avito.swift */; };
+		E5E1091025A902BD0099D779 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E1090F25A902BD0099D779 /* Button.swift */; };
+		E5E1093325ABC71F0099D779 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5E1093225ABC71F0099D779 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E5E10862259E06D30099D779 /* Avito Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Avito Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E10865259E06D30099D779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E10867259E06D30099D779 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E5E10869259E06D30099D779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5E1086C259E06D30099D779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5E10869259E06D30099D779 /* AdBoosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterViewController.swift; sourceTree = "<group>"; };
 		E5E1086E259E06D50099D779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E10871259E06D50099D779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E10873259E06D50099D779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E1088D259E0A3A0099D779 /* AdBoosterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterPresenter.swift; sourceTree = "<group>"; };
+		E5E10890259E0A430099D779 /* AdBoosterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterRouter.swift; sourceTree = "<group>"; };
+		E5E10893259E0A560099D779 /* AdBoosterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterInteractor.swift; sourceTree = "<group>"; };
+		E5E10896259E0A720099D779 /* ModuleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		E5E108A5259E0C040099D779 /* result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = result.json; sourceTree = "<group>"; };
+		E5E108A8259E0C450099D779 /* AdBoosterProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterProvider.swift; sourceTree = "<group>"; };
+		E5E108AD259E0C9A0099D779 /* AdBoosterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterCell.swift; sourceTree = "<group>"; };
+		E5E108B3259E0D670099D779 /* AdBooster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBooster.swift; sourceTree = "<group>"; };
+		E5E108BF259E10F90099D779 /* StatusResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusResponse.swift; sourceTree = "<group>"; };
+		E5E108C3259E12F10099D779 /* UIColor+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Avito.swift"; sourceTree = "<group>"; };
+		E5E108C8259E15120099D779 /* UIEdgeInsets+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+Avito.swift"; sourceTree = "<group>"; };
+		E5E108CE25A456440099D779 /* ProviderError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderError.swift; sourceTree = "<group>"; };
+		E5E108D625A460220099D779 /* AdBoosterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterResponse.swift; sourceTree = "<group>"; };
+		E5E108DB25A62A7B0099D779 /* AdBoosterHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterHeader.swift; sourceTree = "<group>"; };
+		E5E108DE25A63A8F0099D779 /* UICollectionView+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Avito.swift"; sourceTree = "<group>"; };
+		E5E108E125A641310099D779 /* UIDevice+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Avito.swift"; sourceTree = "<group>"; };
+		E5E108E425A660690099D779 /* UIImageView+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Avito.swift"; sourceTree = "<group>"; };
+		E5E108EE25A685860099D779 /* NSLayoutConstraint+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Avito.swift"; sourceTree = "<group>"; };
+		E5E108F225A87FB60099D779 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E5E108F625A88E5A0099D779 /* AdBoosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBoosterData.swift; sourceTree = "<group>"; };
+		E5E1090B25A8F7DD0099D779 /* UIViewController+Avito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Avito.swift"; sourceTree = "<group>"; };
+		E5E1090F25A902BD0099D779 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		E5E1093225ABC71F0099D779 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +100,125 @@
 		E5E10864259E06D30099D779 /* Avito Test */ = {
 			isa = PBXGroup;
 			children = (
+				E5E1087D259E081D0099D779 /* Application */,
+				E5E10889259E09CC0099D779 /* Modules */,
+				E5E108AB259E0C4D0099D779 /* Services */,
+				E5E108C6259E12F70099D779 /* Extensions */,
+				E5E108D125A456530099D779 /* Helpers */,
+				E5E10880259E084A0099D779 /* Resources */,
+				E5E1087F259E08290099D779 /* Supporting files */,
+			);
+			path = "Avito Test";
+			sourceTree = "<group>";
+		};
+		E5E1087D259E081D0099D779 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				E5E10865259E06D30099D779 /* AppDelegate.swift */,
 				E5E10867259E06D30099D779 /* SceneDelegate.swift */,
-				E5E10869259E06D30099D779 /* ViewController.swift */,
-				E5E1086B259E06D30099D779 /* Main.storyboard */,
-				E5E1086E259E06D50099D779 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E5E1087F259E08290099D779 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				E5E10870259E06D50099D779 /* LaunchScreen.storyboard */,
 				E5E10873259E06D50099D779 /* Info.plist */,
 			);
-			path = "Avito Test";
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		E5E10880259E084A0099D779 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108A5259E0C040099D779 /* result.json */,
+				E5E1093225ABC71F0099D779 /* Localizable.strings */,
+				E5E1086E259E06D50099D779 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E5E10887259E09C40099D779 /* AdBooster */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108F925A88E5C0099D779 /* Models */,
+				E5E108B1259E0C9D0099D779 /* Cells */,
+				E5E10869259E06D30099D779 /* AdBoosterViewController.swift */,
+				E5E1088D259E0A3A0099D779 /* AdBoosterPresenter.swift */,
+				E5E10893259E0A560099D779 /* AdBoosterInteractor.swift */,
+				E5E10890259E0A430099D779 /* AdBoosterRouter.swift */,
+			);
+			path = AdBooster;
+			sourceTree = "<group>";
+		};
+		E5E10889259E09CC0099D779 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E5E10896259E0A720099D779 /* ModuleFactory.swift */,
+				E5E10887259E09C40099D779 /* AdBooster */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E5E108AB259E0C4D0099D779 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108B7259E0D6A0099D779 /* Responses */,
+				E5E108A8259E0C450099D779 /* AdBoosterProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E5E108B1259E0C9D0099D779 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108AD259E0C9A0099D779 /* AdBoosterCell.swift */,
+				E5E108DB25A62A7B0099D779 /* AdBoosterHeader.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E5E108B7259E0D6A0099D779 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108BF259E10F90099D779 /* StatusResponse.swift */,
+				E5E108D625A460220099D779 /* AdBoosterResponse.swift */,
+				E5E108B3259E0D670099D779 /* AdBooster.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		E5E108C6259E12F70099D779 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108C3259E12F10099D779 /* UIColor+Avito.swift */,
+				E5E108C8259E15120099D779 /* UIEdgeInsets+Avito.swift */,
+				E5E108DE25A63A8F0099D779 /* UICollectionView+Avito.swift */,
+				E5E108E125A641310099D779 /* UIDevice+Avito.swift */,
+				E5E108E425A660690099D779 /* UIImageView+Avito.swift */,
+				E5E108EE25A685860099D779 /* NSLayoutConstraint+Avito.swift */,
+				E5E1090B25A8F7DD0099D779 /* UIViewController+Avito.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E5E108D125A456530099D779 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108CE25A456440099D779 /* ProviderError.swift */,
+				E5E108F225A87FB60099D779 /* Router.swift */,
+				E5E1090F25A902BD0099D779 /* Button.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E5E108F925A88E5C0099D779 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E5E108F625A88E5A0099D779 /* AdBoosterData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E10872259E06D50099D779 /* LaunchScreen.storyboard in Resources */,
+				E5E1093325ABC71F0099D779 /* Localizable.strings in Resources */,
+				E5E108A6259E0C040099D779 /* result.json in Resources */,
 				E5E1086F259E06D50099D779 /* Assets.xcassets in Resources */,
-				E5E1086D259E06D30099D779 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +292,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E1086A259E06D30099D779 /* ViewController.swift in Sources */,
+				E5E108E525A660690099D779 /* UIImageView+Avito.swift in Sources */,
+				E5E108C4259E12F10099D779 /* UIColor+Avito.swift in Sources */,
+				E5E1090C25A8F7DD0099D779 /* UIViewController+Avito.swift in Sources */,
+				E5E108C9259E15120099D779 /* UIEdgeInsets+Avito.swift in Sources */,
+				E5E108CF25A456440099D779 /* ProviderError.swift in Sources */,
+				E5E108D725A460220099D779 /* AdBoosterResponse.swift in Sources */,
+				E5E1088E259E0A3A0099D779 /* AdBoosterPresenter.swift in Sources */,
+				E5E108DF25A63A8F0099D779 /* UICollectionView+Avito.swift in Sources */,
+				E5E108C0259E10F90099D779 /* StatusResponse.swift in Sources */,
+				E5E108F725A88E5A0099D779 /* AdBoosterData.swift in Sources */,
+				E5E108AE259E0C9A0099D779 /* AdBoosterCell.swift in Sources */,
+				E5E108EF25A685860099D779 /* NSLayoutConstraint+Avito.swift in Sources */,
+				E5E108F325A87FB60099D779 /* Router.swift in Sources */,
+				E5E108DC25A62A7B0099D779 /* AdBoosterHeader.swift in Sources */,
+				E5E108A9259E0C450099D779 /* AdBoosterProvider.swift in Sources */,
+				E5E108E225A641310099D779 /* UIDevice+Avito.swift in Sources */,
+				E5E1086A259E06D30099D779 /* AdBoosterViewController.swift in Sources */,
+				E5E108B4259E0D670099D779 /* AdBooster.swift in Sources */,
 				E5E10866259E06D30099D779 /* AppDelegate.swift in Sources */,
+				E5E1091025A902BD0099D779 /* Button.swift in Sources */,
+				E5E10897259E0A720099D779 /* ModuleFactory.swift in Sources */,
 				E5E10868259E06D30099D779 /* SceneDelegate.swift in Sources */,
+				E5E10894259E0A560099D779 /* AdBoosterInteractor.swift in Sources */,
+				E5E10891259E0A430099D779 /* AdBoosterRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5E1086B259E06D30099D779 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5E1086C259E06D30099D779 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5E10870259E06D50099D779 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +439,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,7 +456,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7G9VAM3FL;
-				INFOPLIST_FILE = "Avito Test/Info.plist";
+				INFOPLIST_FILE = "Avito Test/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +464,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dimon.Avito-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +475,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7G9VAM3FL;
-				INFOPLIST_FILE = "Avito Test/Info.plist";
+				INFOPLIST_FILE = "Avito Test/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dimon.Avito-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
